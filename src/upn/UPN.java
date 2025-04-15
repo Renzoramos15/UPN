@@ -6,6 +6,7 @@ public class UPN {
         GestionEstudiantes gestion = new GestionEstudiantes();
         
         //nombre de los estudiantes
+        System.out.println("----------------------------------------------------------");
         gestion.agregarEstudiante(new Estudiante("Paola", 12));
         gestion.agregarEstudiante(new Estudiante("Jefferson", 18));
         gestion.agregarEstudiante(new Estudiante("Andy", 10));
